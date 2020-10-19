@@ -1,43 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180200378-1"></script>
+    <script>
+      if(window.location.hostname.indexOf('naveenh.xyz') !== -1) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-180200378-1');
+      }
+    </script>
+
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta name="author" content="Naveen Heroorkar">
+    <meta name="description" content="A self-motivated, independent learner and a full-time coder focusing on delivering high quality, robust and scalable code. Working closely with clients and talented people across different verticals."/>
+    <meta name="keywords" content="Naveen Heroorkar, Software Engineer, FullStack Developer, Java, Reactjs, Heroorkar">
+    
+    <meta name="apple-mobile-web-app-status-bar-style" content="#fa7c30">
+    <meta name="theme-color" content="#fa7c30" />
+    
+    <meta property="og:title" content="Naveen Heroorkar">
+    <meta property="og:description" content="A self-motivated, independent learner and a full-time coder focusing on delivering high quality, robust and scalable code. Working closely with clients and talented people across different verticals.">
+    <meta property="og:image" content="%PUBLIC_URL%/nvn-avatar.png">
+    <meta property="og:url" content="https://naveenh.xyz/">
+    <meta property="og:site_name" content="Naveen.Heroorkar">
+    
+    <meta name="apple-mobile-web-app-title" content="Naveen Heroorkar">
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/nvn-avatar.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <title>Naveen Heroorkar | Software Engineer</title>
   </head>
   <body>
+    <!-- End Google Tag Manager (noscript) -->
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>

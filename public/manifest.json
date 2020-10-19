@@ -1,25 +1,67 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Naveen",
+  "name": "Naveen Heroorkar",
+  "description": "A self-motivated, independent learner and a full-time coder focusing on delivering high quality, robust and scalable code. Working closely with clients and talented people across different verticals.",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "/nvn-avatar-48x48.png",
+      "type": "image/png",
+      "sizes": "48x48",
+      "purpose": "any maskable"
     },
     {
-      "src": "logo192.png",
+      "src": "/nvn-avatar-72x72.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "72x72",
+      "purpose": "any maskable"
     },
     {
-      "src": "logo512.png",
+      "src": "/nvn-avatar-96x96.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "96x96",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/nvn-avatar-144x144.png",
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/nvn-avatar-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/nvn-avatar-256x256.png",
+      "type": "image/png",
+      "sizes": "256x256",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/nvn-avatar-384x384.png",
+      "type": "image/png",
+      "sizes": "384x384",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/nvn-avatar-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
-  "start_url": ".",
+  "start_url": "/?mode=standalone",
+  "background_color": "#fa7c30",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "scope": "/",
+  "theme_color": "#fa7c30",
+  "serviceworker": {
+    "src": "/service-worker.js",
+    "scope": "/",
+    "type": "",
+    "update_via_cache": "none"
+  }
 }
+
